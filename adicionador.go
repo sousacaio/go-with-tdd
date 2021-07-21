@@ -1,6 +1,9 @@
-package inteiros
+package iteracao
 
-// Adiciona recebe dois inteiros e retorna a soma deles
-func Adiciona(x, y int) int {
-	return x + y
+import (
+	"strings"
+)
+
+func Repetir(caractere string, quantidadeRepeticoes int) string {
+	return strings.Repeat(caractere, quantidadeRepeticoes)
 }
